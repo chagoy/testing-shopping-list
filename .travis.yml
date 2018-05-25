@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: p+MI8NYXdomgd+YYcifrIRtcr8X679k82/CUWr6iwsqOmTZgKs3TiGmqgM3v6Qm2hCpVRDG7i6d3s+Do906Z6manH5C81pCksQOsgohiRa4I3Y8Af7jW1Uc0bN4WpizOLyPLuJMBWB1P6dPbzJ2wkAr0HDGNqWx+BdPdG1Mhgt9IHtH0CRwNeLjIZnWfO+Vm/g2jaG6qphwCku6k280jcXQAPkHGC18FGfk1SxQdzF5xJpJfdmkXPlVNIjwZUw6Pmy5GkzRo5ul5QlnpHe598IbUDuKsDUE6CPkPgCZhCiXI0GhezdeN+EqSRIIRlEw2NF+fOTC87qYxotZFIb2T6Pm2e/ykcGfq9V4U/RoaLC3Ct3yTxgWXbY1+xBpdhyfC6nIEwa4yo7ALFW4DIAm3R5U8smok1Lo5CWGV1h5A0Cp1hUfnM6eb8dECcpIJZbDPyqg4MtYFBwnO6icfoxPWoDlMLHrMZg2JNvNR0I+QtPSM7i3WJya7Taf8xVm7TtO4eekkxaWJCuDKvWj9cGM8mSk/EQg53bCnpjgyOjWs08KM6eCDUrGHVsKLVJmwC662IRKniEkSiZ142Eh34eAa7gdc8UJHo6mxEoBPOF17I4fNvEZbDKS2bQRNbDJsN+P81HoUcW32W4mTtGs8+tDqTyQdb+HUtYQ2NXhzRIagHyI=
+  app: https://evening-wildwood-76535.herokuapp.com/
+  on:
+    repo: chagoy/testing-shopping-list
+    branch: tests-for-recipes
