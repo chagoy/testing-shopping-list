@@ -43,6 +43,7 @@ const ShoppingList = {
         `Can't update item \`${id}\` because doesn't exist.`)
     }
     this.items[updatedItem.id] = updatedItem;
+    
     return updatedItem;
   }
 };
